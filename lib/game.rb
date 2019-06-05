@@ -37,3 +37,6 @@ class Game
   end
 
 end
+
+#Rather than this massive switch statement, you could probably make some method
+#that dynamically constructs the messages needed given the two parameters?

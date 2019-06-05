@@ -123,9 +123,12 @@ describe 'A game of rock paper scissors' do
         game.play(:rock, :rock)
         expect(game.finished?).to eq(false)
       end
-      
+
     end
 
   end
 
 end
+
+#The only real way I'm seeing to improve this is by using a factory,
+#besides that I'm not seeing anything that particularly catches my eye.
